@@ -1,11 +1,11 @@
 Algoritmo "mediaDoAluno"
-// Disciplina   : [Algoritmos e ProgramaÁ„o]
+// Disciplina   : [Algoritmos e Programa√ß√£o]
 // Professora   : Vanessa S. M. P. C. 
-// Descri√ß√£o   : O programa lÍ o nome, idade e as 4 notas que o aluno teve durante o ano para ver se ele teve a mÈdia suficiente para aprovaÁ„o usando o VisuAlg.
+// Descri√ß√£o   : O programa l√™ o nome, idade e as 4 notas que o aluno teve durante o ano para ver se ele teve a m√©dia suficiente para aprova√ß√£o usando o VisuAlg.
 // Autor(a)    : Bruno Machado da Rosa
 // Data atual  : 09/03/2021
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
    nome: caractere
    idade: inteiro
    nota1, nota2, nota3, nota4, media: real
@@ -25,11 +25,11 @@ Inicio
       media <- (nota1 + nota2 + nota3 + nota4) / 4
       Escreval ("Aluno:", nome)
       Escreval ("Idade:", idade)
-      Escreval ("MÈdia de nota:", media)
-      se media >= 7 ent„o
-         escreval("O aluno foi aprovado com mÈdia superior a 7.")
+      Escreval ("M√©dia de nota:", media)
+      se media >= 7 ent√£o
+         escreval("O aluno foi aprovado com m√©dia superior a 7.")
       Senao
-         escreval("O aluno foi reprovado com mÈdia inferior a 7.")
+         escreval("O aluno foi reprovado com m√©dia inferior a 7.")
       fimse
-         escreval("Boas fÈrias!")
+         escreval("Boas f√©rias!")
 Fimalgoritmo
